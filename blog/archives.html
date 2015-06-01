@@ -1,0 +1,15 @@
+---
+layout: default
+permalink: /blog/archives/
+breadcrumb:
+ - title: Blog
+   url: /blog/
+---
+
+<h1>Blog Archives</h1>
+
+<ul>
+{% for post in site.posts %}
+    <li itemscope itemtype="http://schema.org/BlogPosting"><a itemprop="url" href="{{ post.url }}">{{ post.title }}</a> <small> - {{ post.date | date: "%-d %B %Y" }}</small>
+{% endfor %}
+</ul>

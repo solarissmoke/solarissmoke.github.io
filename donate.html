@@ -1,0 +1,17 @@
+---
+layout: default
+permalink: /donate/
+---
+
+<h1>Donate</h1>
+<p class="center">A few users of my <a href="/code/">free software</a> have asked to donate something to show their appreciation. Please use the form below to do so using PayPal. Thanks!
+<form method="post" action="https://www.paypal.com/cgi-bin/webscr" class="center">
+<input type="hidden" name="cmd" value="_donations">
+<input type="hidden" name="business" value="samir@rayofsolaris.net">
+<input type="hidden" name="item_name" value="Buy Samir a cup of [your favourite warm beverage]">
+<input type="hidden" name="no_shipping" value="1">
+<input type="hidden" name="cn" value="Message (optional):">
+<p><label for="amount">Amount:</label>
+<p><input type="number" value="10" title="The amount you wish to donate" size="3" id="amount" name="amount" required style="vertical-align: middle"> <select name="currency_code" id="currency_code"><option value="USD">$ US Dollars</option><option value="GBP">£ Pounds Sterling</option><option value="EUR">€ Euros</option></select>
+<p><input type="submit" value="Donate via PayPal" title="You will be redirected to PayPal for secure processing of your payment. You don't need a PayPal account to make a payment.">
+</form>

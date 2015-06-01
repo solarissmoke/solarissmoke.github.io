@@ -1,0 +1,10 @@
+---
+layout: post
+title: Knitted Möbius Strip
+---
+<p>My grandmother is a master knitter. The items she’s knitted — sweaters, scarves, hats, gloves, socks, teddy-bear pantaloons, to name a few — easily number in the hundreds. She’s taught dozens of learners how to knit. People come to her when they get stuck with their own knitting projects, and she has yet to fail to sort out their difficulties. At 86, she shows no signs of slowing down.
+<p>Recently she started on one of her more ambitious projects, a large dress knitted on circular needles. A couple of inches in, she realised that something was quite wrong: there was a twist in the strip! I got very excited, thinking that we had on our hands that topological wonder which is a <a href="http://en.wikipedia.org/wiki/Möbius_strip">Möbius Strip</a>.
+<p>Closer and calmer inspection revealed however that there was actually a full twist in the dress, which isn’t as exciting because it still has two discrete sides and two edges. It’s equivalent to turning one end of a flat strip of paper 360 degrees and then joining it to the other end. To produce a Möbius Strip you have to turn it 180 degrees, which with knitting isn’t quite so easy to do. It also turns out that the full twist is quite an easy mistake to make on circular needles.
+<p>Having once had the idea however, the engineer in me was determined to have a knitted, seamless Möbius Strip. (Stitching the ends of a strip of wool together is cheating). So, several hours, much head-scratching and some sore fingers later (kitting needles are to me what Linux is to my grandmother), here it is. My very own hand-knitted Möbius Strip.
+<p class="center"><img alt="A knitted, seamless Möbius Strip" src="http://rayofsolaris.net/blog/images/2011/mobius-knit.jpg" />
+<p>Now all I have to do is explain to my grandmother that it <em>isn’t</em> a mistake, but a thing of beauty!

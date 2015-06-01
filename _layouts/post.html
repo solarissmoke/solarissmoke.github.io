@@ -1,0 +1,28 @@
+---
+layout: default
+breadcrumb:
+ - url: /blog/
+   title: Blog
+ - url: /blog/archives/
+   title: Archives
+---
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <header>
+        <h1>{{ page.title }}</h1>
+        <p class='small'><time datetime='{{ page.date | date_to_xmlschema }}' title='{{ page.date | date_to_xmlschema }}'>{{ page.date | date: "%-d %B %Y" }}</time>
+    </header>
+
+    <div itemprop="articleBody">
+    {{ content }}
+    </div>
+
+    <p id="browse">
+      {% if page.previous.url %} 
+      <a href="{{ page.previous.url }}" rel="prev">« {{ page.previous.title }}</a>
+      {% endif %}
+      {% if page.next.url %} 
+      <a href="{{ page.next.url }}" rel="next">{{ page.next.title }} »</a>
+      {% endif %}
+    </p>
+
+</article>

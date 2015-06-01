@@ -1,0 +1,28 @@
+---
+layout: default
+title: Random Ramblings
+excerpt: Random ramblings, some solutions to technology problems I've run into, and the occasional rant.
+---
+
+
+{% for post in paginator.posts %}
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <header>
+        <h1><a href='{{ post.url }}' rel='bookmark' itemprop='url' title='Permalink to {{ post.title }}'>{{ post.title }}</a></h1>
+        <p class='small'><time datetime='{{ post.date | date_to_xmlschema }}' title='{{ post.date | date_to_xmlschema }}'>{{ post.date | date: "%-d %B %Y" }}</time>
+    </header>
+    <div itemprop="articleBody">{{ post.content }}</div>
+</article>
+{% endfor %}
+
+<nav class="ilinks center">
+{% if paginator.previous_page %}
+<a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+{% endif %}
+{% if paginator.next_page %}
+<a href="{{ paginator.next_page_path }}" class="next">Next</a>
+{% endif %}
+<p><span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+</nav>
+
+

@@ -1,0 +1,8 @@
+User-agent: ia_archiver
+User-agent: spbot
+User-agent: twiceler
+User-agent: gigabot
+User-agent: dotbot
+User-agent: Sosospider
+User-agent: Baiduspider
+Disallow:/
