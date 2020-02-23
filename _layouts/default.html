@@ -6,25 +6,11 @@
 
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:400,700,300">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700,300">
     <link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
-    <nav id="topnav">
-        <ul id="crumbs">
-        {% if page.url != "/index.html" %}<li><a href="/">Home</a>{% endif %}
-        {% for item in page.breadcrumb %}<li><a href="{{ item.url }}">{{ item.title }}</a>{% endfor %}
-        </ul>
-        <ul id="meta">
-            {% if page.url contains "/blog" %}
-            <li><a href="/blog/archives/">Archives</a>
-            <li><a class="rss" href="/blog/feed.xml">Entries</a>
-            {% endif %}
-        </ul>
-    </nav>
-
-
     <div id="wrap">
       <div id="content">
         {{ content }}

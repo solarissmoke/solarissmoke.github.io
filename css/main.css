@@ -46,57 +46,7 @@ a:hover {
     line-height: 16px;
 }
 
-#topnav {
-    padding: 0;
-    border-bottom: 1px solid #EEE;
-    min-height: 1.5em;
-    font-size: 0.9em
-}
-#topnav ul {
-    display: inline-block;
-    list-style: none
-}
-#topnav li {
-    display: inline-block
-}
-#topnav a, #browse a, #bottom a, .ilinks a {
-    display: inline-block;
-    background: #F4EFF5;
-    color: #555;
-    text-shadow: rgba(150,150,150,0.5) 1px 1px 1px;
-    padding: 3px 5px;
-    transition: 0.2s linear;
-    -webkit-transition: 0.2s linear
-}
-
-#crumbs a {
-    float: left;
-}
-#crumbs>li:first-child>a {
-    border-radius: 5px 0 0 0
-}
-#crumbs>li:after {
-    content: "»";
-    opacity: 0.5;
-    background: #F0EAF2;
-    padding: 3px 0;
-    display: inline-block;
-}
-
-#topnav a:hover, #browse a:hover {background-color: #D2C0D8}
-#meta {float: right}
-#meta li {margin-left: 1px}
-#meta>li:last-child>a {border-radius: 0 5px 0 0}
-
 #content {margin: 10px auto 30px; max-width: 860px; padding: 10px 5px}
-
-.ilinks a{color: #444; font-weight: bold; border: 1px solid #888; padding: 3px 5px; background: #F0EAF2; text-shadow: rgba(150,150,150,0.5) 1px 1px 1px}
-.ilinks a:hover {background: #D2C0D8; text-decoration: none}
-
-#content nav ul {padding: 0}
-.ilinks {margin: 20px 0}
-.ilinks li {display:inline; padding: 0 2px}
-.ilinks a {border-radius: 5px}
 
 h1, h1>a, h1>a:hover, h2, h3, h4 {
     font-size: 30px;
@@ -111,17 +61,8 @@ h2 {font-size: 26px}
 h3 {font-size: 22px}
 
 p {margin: 10px 0; line-height: 1.4}
-iframe {display:block; margin: 10px auto; border: 1px solid #AAA}
-th, .center {text-align:center}
-table {max-width: 650px; margin: 10px auto; border-collapse: collapse; text-align: left; line-height: 1.5em; font-size: 0.9em}
-table>caption {caption-side: bottom; margin: 5px; color: #555}
-td,th {padding: 2px 5px; border: 1px solid #888}
-tbody>tr:nth-child(odd) {background: #F5F5F5}
-.boxed {border: 1px solid #888; padding: 5px; border-radius: 5px}
 img {vertical-align: middle; margin: 5px 0}
-.thumb {margin:5px}
-.small, small {font-size:0.8em}
-small {color: #666}
+small {font-size:0.8em, color: #666}
 small a {color: #76F}
 input, textarea, select {font-family: inherit; color: #222; border:1px solid #888; border-radius: 5px; background: #FAFAFA; box-shadow: inset #CCC 0 0 2px}
 input, textarea, label, select {vertical-align:middle; padding: 5px}
@@ -131,40 +72,3 @@ input[type="submit"] {border:1px solid #888; border-top:none; border-left: none}
 input[type="submit"]:hover {background: #D2C0D8; cursor: pointer}
 input[type="submit"]:active {border:1px solid #888; border-bottom:none; border-right: none}
 input:disabled {color: #CCC}
-ins {text-decoration:none}
-sup {font-size: 0.5em}
-blockquote {margin: 10px 20px; padding-left: 20px; border-left: 5px solid #DDD; color:#333}
-.error {color:red}
-.error:before {content: "\2717\00A0"}
-.ok, .green {color: green}
-.ok:before {content: "\2713\00A0"}
-.inputerror {background: #FDF}
-noscript p {display: block; border: 1px solid red; background: #FCF; text-align:center}
-.left {text-align: left}
-.right {text-align: right}
-
-#content ul, #content ol {padding-left: 2em; margin: 10px 0}
-#content ul ul {margin-bottom: 0}
-#content li {list-style: disc; padding-bottom: 0.5em; line-height: 1.5em}
-
-code, samp {font: 15px Consolas, 'Courier New', Courier, monospace; background: #FFE; white-space:nowrap}
-pre>code, pre>samp {display: block; white-space:pre; padding: 10px; border: 1px solid #888; overflow-x: auto}
-pre {}
-
-/* Blog */
-#meta .rss{background: #F4EFF5 url(/images/feed.png) no-repeat 4px center; padding-left: 22px}
-.post {padding: 10px 0}
-.post:first-child {padding-top: 0}
-#browse {border: 1px solid #EEE; background: #F4EFF5; border-radius: 5px; margin: 0 0 10px 0}
-#browse>a {float:right; border-radius: 5px}
-#browse>a:first-child {float:none}
-
-.aligncenter {display:block; margin-left:auto; margin-right:auto}
-.alignright {float:right; padding-right: 10px}
-.alignleft {float:left; padding-left: 10px}
-img.alignright {margin: 0 0 5px 15px}
-img.alignleft {margin: 0 15px 5px 0}
-
-.post header {margin-top: 15px; text-align: center}
-.post header>.icon {width: 64px; height: 12px; margin: 0 auto}
-.post header>h1, .post header>p {margin: 0}
