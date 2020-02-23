@@ -17,15 +17,17 @@ a:hover {
     color: #06F;
     text-decoration: underline
 }
-
-#content .profiles {
+.center {
+    text-align: center;
+}
+.profiles {
     margin: 0;
     padding: 0;
     display: block;
     margin: 0 auto;
     text-align: center;
 }
-#content .profiles li {
+.profiles li {
     list-style: none;
     display: inline-block;
     font-size: 40px;
@@ -48,7 +50,7 @@ a:hover {
 
 #content {margin: 10px auto 30px; max-width: 860px; padding: 10px 5px}
 
-h1, h1>a, h1>a:hover, h2, h3, h4 {
+h1, h1>a, h1>a:hover {
     font-size: 30px;
     text-align: center;
     color: #900;
@@ -57,18 +59,15 @@ h1, h1>a, h1>a:hover, h2, h3, h4 {
     font-weight: 300;
 }
 h1 {font-size: 30px; margin-top: 0.5em}
-h2 {font-size: 26px}
-h3 {font-size: 22px}
 
 p {margin: 10px 0; line-height: 1.4}
 img {vertical-align: middle; margin: 5px 0}
 small {font-size:0.8em, color: #666}
 small a {color: #76F}
-input, textarea, select {font-family: inherit; color: #222; border:1px solid #888; border-radius: 5px; background: #FAFAFA; box-shadow: inset #CCC 0 0 2px}
-input, textarea, label, select {vertical-align:middle; padding: 5px}
-input:focus,textarea:focus {background: #FFF; box-shadow: #AAA 0 0 8px}
+input, select {font-family: inherit; color: #222; border:1px solid #888; border-radius: 5px; background: #FAFAFA; box-shadow: inset #CCC 0 0 2px}
+input, label, select {vertical-align:middle; padding: 5px}
+input:focus {background: #FFF; box-shadow: #AAA 0 0 8px}
 
 input[type="submit"] {border:1px solid #888; border-top:none; border-left: none}
 input[type="submit"]:hover {background: #D2C0D8; cursor: pointer}
 input[type="submit"]:active {border:1px solid #888; border-bottom:none; border-right: none}
-input:disabled {color: #CCC}
