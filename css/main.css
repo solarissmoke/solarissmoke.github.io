@@ -1,6 +1,5 @@
 /* Global */
 article, footer, header, nav {display: block}
-* {margin:0; padding:0}
 body {
     font: 16px Lato, serif;
     background: #FFF url(/images/home.png) no-repeat center 15px;
@@ -71,3 +70,9 @@ input:focus {background: #FFF; box-shadow: #AAA 0 0 8px}
 input[type="submit"] {border:1px solid #888; border-top:none; border-left: none}
 input[type="submit"]:hover {background: #D2C0D8; cursor: pointer}
 input[type="submit"]:active {border:1px solid #888; border-bottom:none; border-right: none}
+
+.alert {
+    padding: 2em;
+    margin: 2em 0;
+    background: #fff2bc;
+}
